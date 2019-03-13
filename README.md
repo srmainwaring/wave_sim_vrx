@@ -50,16 +50,18 @@ catkin init
 Configure catkin:
 
 ```bash
-catkin config --cmake-args -DCMAKE_BUILD_TYPE=RelWithDebInfo
+catkin config --cmake-args \
+  -DCATKIN_ENABLE_TESTING=1 \
+  -DCMAKE_BUILD_TYPE=RelWithDebInfo
 ```
 
 ### Clone and build the package
 
-Clone the `wave_sim` repository:
+Clone the `wave_sim_vrx` repository:
 
 ```bash
 cd src
-git clone https://github.com/srmainwaring/asv_wave_sim.git
+git clone https://github.com/srmainwaring/wave_sim_vrx.git wave_sim
 ```
 
 Compile the packages:
@@ -86,7 +88,7 @@ The wiki has details about how to configure and use the plugins:
 Manually run the tests:
 
 ```bash
-./devel/lib/asv_wave_sim_gazebo_plugins/UNIT_Wavefield_TEST
+./devel/lib/wave_gazebo_plugins/UNIT_Wavefield_TEST
 ```
 
 ## Examples

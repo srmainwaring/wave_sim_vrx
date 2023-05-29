@@ -1,5 +1,6 @@
-# Gazebo Wave Simulator
+This repository is archived. The supported version of these plugins for the new version of Gazebo can be found at [Wave Sim](https://github.com/srmainwaring/asv_wave_sim).
 
+# Gazebo Wave Simulator
 
 This package contains plugins that support the simulation and visualisation
 of waves in Gazebo. It is a simplified version of the
